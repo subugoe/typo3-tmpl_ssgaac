@@ -1,0 +1,5 @@
+#################
+#### TCEFORM ####
+#################
+
+TCEFORM.tt_content.colPos.removeItems = 1,2,3
