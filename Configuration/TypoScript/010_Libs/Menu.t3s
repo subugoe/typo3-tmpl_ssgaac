@@ -2,8 +2,8 @@ lib.menu = HMENU
 
 lib.menu {
     special = directory
-    special.value = 12
-    excludeUidList = 48,50,52,53,60,63,64
+    special.value = {$ids.home}
+    excludeUidList = {$ids.menuExcluded}
 
     1 = TMENU
     1.wrap = <ul class="mainmenu">|</ul>
