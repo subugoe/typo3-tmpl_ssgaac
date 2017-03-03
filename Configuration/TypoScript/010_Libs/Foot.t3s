@@ -1,6 +1,6 @@
 lib.foot = CONTENT
 lib.foot {
     table = tt_content
-    select.pidInList = {$my_foot_pid}
+    select.pidInList = {$ids.footer}
     select.languageField = sys_language_uid
 }
