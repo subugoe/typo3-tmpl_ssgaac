@@ -1,0 +1,31 @@
+.tx-powermail {
+  h3 {
+    display: none;
+  }
+
+  fieldset {
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    margin-bottom: 12px;
+  }
+
+  .nolabel .powermail_label {
+    display: none;
+  }
+
+  .powermail_fieldwrap {
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+  }
+
+  .powermail_legend {
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+  }
+}

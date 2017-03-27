@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "testLocal": "node_modules/.bin/casperjs  --ssl-protocol=any --ignore-ssl-errors=true test tests/test-*.js --url='http://ssgaac.dev'",
-    "testDev": "node_modules/.bin/casperjs --ssl-protocol=any --ignore-ssl-errors=true test tests/test-*.js --url='http://ssgaacdev.sub.uni-goettingen.de'"
+    "testDev": "node_modules/.bin/casperjs --ssl-protocol=any --ignore-ssl-errors=true test tests/test-*.js --url='http://ssgaacdev.sub.uni-goettingen.de'",
+    "buildCss": "node_modules/.bin/node-sass Resources/Private/Scss/App.scss Resources/Public/Css/main.css",
+    "watchCss": "nodemon -e scss -x \"npm run buildCss\""
   },
   "repository": "http://github.com/subugoe/typo3-tmpl_ssgaac",
   "author": "",
@@ -15,6 +17,8 @@
     "eslint": "^3.13.1",
     "eslint-config-airbnb-base": "^11.0.1",
     "eslint-plugin-import": "^2.2.0",
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0",
     "phantomjs-prebuilt": "^2.1.7"
   },
   "dependencies": {
