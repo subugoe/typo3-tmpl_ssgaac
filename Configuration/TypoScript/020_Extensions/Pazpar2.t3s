@@ -6,8 +6,8 @@ plugin.tx_pazpar2 {
         fulltextSearch = 2
         journalTitleOnlySearch = 1
         exportFormats {
-            ris = 1
-            bibtex = 1
+            ris = 0
+            bibtex = 0
         }
 
         showKVKLink = 1
