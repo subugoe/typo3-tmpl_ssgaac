@@ -646,7 +646,7 @@ body:before {
   padding-left: 8px;
   margin-bottom: 12px; }
 
-.tx-powermail .nolabel .powermail_label {
+.tx-powermail div.nolabel .powermail_label {
   display: none; }
 
 .tx-powermail .powermail_fieldwrap {
